@@ -1,3 +1,10 @@
+# archived
+using https://github.com/apache/hive/tree/master/jdbc-handler  (tag rel/release-2.3.5) instead.
+
+bug fix: 
+jdbc-handler/src/main/java/org/apache/hive/storage/jdbc/dao/MySqlDatabaseAccessor.java#addLimitAndOffsetToQuery, switch limit and offset(https://github.com/apache/hive/commit/77f44b66d188aed676014c226926d647ebec28d3#diff-fbded674af0f20847dc235295b148f7fL29)
+
+
 #Hive Storage Handler for JDBC#
 
 The **Hive Storage Handler For JDBC** by [Qubole](www.qubole.com), which is a fork of [HiveJdbcStorageHandler](https://github.com/myui/HiveJdbcStorageHandler), helps users read from and write to JDBC databases using Hive, and also enabling them to run SQL queries to analyze data that resides in JDBC tables.
