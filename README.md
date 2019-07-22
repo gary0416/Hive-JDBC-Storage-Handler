@@ -1,9 +1,12 @@
 # archived
-using https://github.com/apache/hive/tree/master/jdbc-handler  (tag rel/release-2.3.5) instead.
+using https://github.com/gary0416/hive-jdbc-handler instead.
+
+which based on https://github.com/apache/hive/tree/master/jdbc-handler  (tag rel/release-2.3.5) 
 
 bug fix: 
 jdbc-handler/src/main/java/org/apache/hive/storage/jdbc/dao/MySqlDatabaseAccessor.java#addLimitAndOffsetToQuery, switch limit and offset(https://github.com/apache/hive/commit/77f44b66d188aed676014c226926d647ebec28d3#diff-fbded674af0f20847dc235295b148f7fL29)
 
+___
 
 #Hive Storage Handler for JDBC#
 
